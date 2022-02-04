@@ -1,0 +1,29 @@
+
+
+.heading{
+    width:100%;
+   
+
+}
+
+.heading h3{
+    float:left;
+    font-size:32px;
+}
+
+.heading button{
+    float:right;
+}
+
+h4{
+    
+    color:black;
+    background-color: white;
+    line-height: 2;
+
+}
+
+canvas{
+    box-shadow: 5px  5px 5px red ;
+    border-radius: 2;
+}

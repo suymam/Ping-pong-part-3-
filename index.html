@@ -1,0 +1,70 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <div class = "btn btn-info heading">
+                <h3>Ping Pong Game</h3>
+<button class = "btn btn-warning" data-toggle = "modal" data-target = "#myModal">INstructions</button>
+
+            </div>
+
+            <button  id = "start" class = "btn btn-danger" onclick="startGame()">Start Game</button>
+            <h3 id = "status"></h3>
+            
+
+            <div id = "canvas"></div>
+            <br>
+            <br>
+
+            <button onclick = "restart()" class = 'btn btn-info'> Restart</button>
+            <br>
+            <br>
+
+            <h4>Develped by Suyash</h4>
+            <div id = "myModal" class = 'modal fade'>
+
+                 <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+
+                        <button class = 'close' data-dismiss = 'modal'>&times;</button>
+                        <h3>INstructions</h3>
+                    </div>
+                    <div class="modal-body">
+                        <ol>
+                            <li>First keep your laptop screen straight</li>
+                            <li>Move youreslf approximately 3-4 feet away fom the laptop</li>
+                            <li>Move your rigth wrist in a ascending and descending manner , A RED DOt should appear in your right wrist </li>
+                            <li>Now press the play button and again move yourslef 3-4 feet away from the laptop</li>
+                            <li>The red paddle is your paddle , that will move as per the movement of you right wrist</li>
+                        </ol>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+            
+        </center>
+       
+
+        <script src="main.js"></script>
+    </body>
+</html>
